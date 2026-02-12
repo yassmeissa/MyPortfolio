@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import styles from './Hero.module.css';
-import profileImage from '../assets/profile.png';
+import profileImage from '../assets/Profile.png';
 
 export const Hero = () => {
   const { t } = useTranslation();
