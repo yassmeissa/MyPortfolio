@@ -13,10 +13,10 @@ interface Project {
   technologies: string[];
   highlights: string[];
   features?: { [key: string]: string[] };
-  technicalDetails?: { [key: string]: any };
+  technicalDetails?: { [key: string]: string | string[] };
   statistics?: { [key: string]: string | number };
   keyFeatures?: { [key: string]: string[] };
-  designSystem?: { [key: string]: any };
+  designSystem?: { [key: string]: string | string[] };
   challenges?: string[];
   learnings?: string[];
   futureImprovements?: string[];

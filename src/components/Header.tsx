@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../context/useTheme';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi';
 import { useState } from 'react';
