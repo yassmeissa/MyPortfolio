@@ -16,7 +16,7 @@ export const About = () => {
           </div>
 
           <div className={styles.stats}>
-            {t('about.stats', { returnObjects: true }).map((stat, index) => (
+            {(t('about.stats', { returnObjects: true }) as Array<{ number: string; label: string }>).map((stat, index) => (
               <div key={index} className={styles.stat}>
                 <div className={styles.number}>{stat.number}</div>
                 <div className={styles.label}>{stat.label}</div>
